@@ -1,0 +1,329 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(218, 218, 218);
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 20px 0;
+    background-color: rgb(172, 19, 151);
+    background-color: rgb(92, 21, 92);
+    color: white;
+}
+
+#wrapper {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+#wrapper .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#wrapper .logo img {
+    width: 60px;
+    margin-right: 10px;
+}
+
+#wrapper .logo h1 {
+    font-size: 32px;
+}
+
+#wrapper .nav_content {
+    display: flex;
+    align-items: center;
+}
+
+#wrapper .nav_content div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80px;
+}
+
+#wrapper .nav_content img {
+    width: 20px;
+} 
+
+#wrapper .nav_content a {
+    color: white;
+    font-weight: 600;
+}
+
+#wrapper .nav_content div:hover a{
+    color: rgb(123, 255, 71);
+    text-transform: uppercase;
+    transition: 500ms;
+}
+
+
+
+.first_page {
+    flex: 1;
+    width: 1200px;
+    display: flex;
+    margin-top: 10vh;
+}
+
+#reports {
+    flex: 1;
+    min-width: 70%;
+    background-color: white;
+    padding: 24px;
+    margin-right: 10px;
+}
+
+#reports .view {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+#reports .view a,
+#reports .view h1{
+    color: rgb(121, 31, 101);
+}
+
+#reports .view a{
+    font-weight: 700;
+}
+
+
+#reports .first {
+    flex: 1;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column-reverse;
+    background-image: url("https://images.unsplash.com/photo-1576319155264-99536e0be1ee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;  
+    padding: 8px;
+    margin-bottom: 24px;
+    
+}
+
+#reports .last p,
+#reports .first p {
+    font-size: 16px;
+    margin-top: 8px;
+    color: rgb(236, 236, 236);
+}
+
+#reports .last p + p,
+#reports .first p + p {
+    font-size: 26px;
+    color: white;
+    font-weight: 600;
+    margin;
+
+}
+
+#reports .last {
+    flex: 1;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column-reverse;
+    background-image: url("https://images.unsplash.com/photo-1519575658369-75718cc2fc76?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;  
+    padding: 8px;
+    margin-bottom: 24px;
+}
+
+.subjects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    box-sizing: border-box;
+}
+
+.subjects .sub {
+    flex: 1;
+    width: 95%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 16px;
+}
+
+.subjects .sub h1 {
+    color: rgb(33, 238, 5);
+    font-weight: bold;
+}
+
+.subjects .sub h2{
+    color: whitesmoke;
+}
+
+.subjects .sub0 {
+    background-image: url("https://images.unsplash.com/photo-1492962827063-e5ea0d8c01f5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=925&q=80");
+}
+
+.subjects .sub1 {  
+    background-image: url("https://images.unsplash.com/photo-1566817767908-948f1b24475d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+}
+
+.subjects .sub2 {
+    background-image: url("https://images.unsplash.com/photo-1535378620166-273708d44e4c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=866&q=80");
+}
+
+.subjects .sub3 {
+    background-image: url("https://images.unsplash.com/photo-1542238060-646c7ed65622?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+}
+
+
+
+/*====Pagina lateral direita====*/
+/*====Pagina lateral direita====*/
+/*====Pagina lateral direita====*/
+
+
+#label {
+    flex: 1;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+ #label #social_medias {
+    flex: 1;
+    width: 100%;
+    max-height: 110px;
+    display: flex;
+    height: 300px;
+    text-align: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 16px 25px 0;
+}
+
+#social_medias h1 {
+    color: rgb(121, 31, 101);
+    font-size: 18px;
+    padding-bottom: 8px;
+    border-bottom: rgb(121, 31, 101) solid 3px;
+}
+
+#social_medias .social {
+    flex: 1;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding-top: 16px;
+}
+
+#social_medias .social a {
+    height: 40px;
+}
+
+#social_medias .social img {
+    width: 40px;
+    height: 40px;
+}
+
+
+
+
+#tutorials {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 16px 25px 0;
+    margin-top: 10px;
+}
+
+#tutorials .view {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 8px;
+    border-bottom: rgb(121, 31, 101) solid 3px;
+}
+
+#tutorials .view a,
+#tutorials .view h1{
+    color: rgb(121, 31, 101);
+}
+
+#tutorials .view a{
+    font-weight: 700;
+}
+
+
+#tutorials .recipes {
+    flex: 1;
+    width: 100%;
+    max-height: 200px;
+    display: flex;
+}
+
+#tutorials .recipes img {
+    width: 100px;
+    height: 150px;
+    margin-right: 16px;
+}
+
+#tutorials .recipes div {
+    max-height: 200px;
+}
+
+#tutorials .recipes p {
+    color: rgb(36, 36, 36);
+}
+
+
+
+
+
+
+footer{
+    flex: 1;
+    width: 100%;
+    align-items: center;
+    background-color: rgb(56, 56, 56);
+    font-size: 8px;
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+    margin-top: 48px;
+}
